@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">Mobile</string>
+    <string name="app_name">Openshift Mobile</string>
     <string name="action_settings">Settings</string>
+    <string name="fetching_data">Fetching data</string>
+
+    <string name="your_apps">Apps</string>
+    <string name="username">User Details </string>
 </resources>

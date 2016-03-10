@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#cc0000</color>
+    <color name="colorPrimaryDark">#a30000</color>
+    <color name="colorPrimaryDarker">#820000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+    <!-- Secondary Red Hat Colors -->
+    <color name="colorSecondaryDarkGrey">#4c4c4c</color>
+    <color name="colorSecondaryLightGrey">#dcdcdc</color>
+    <color name="colorSecondaryBlue">#004153</color>
+    <color name="colorSecondaryLightBlue">#A3DBE8</color>
+
+    <!-- Accent Colors -->
+    <color name="colorAccentBlue">#00b9e4</color>
+    <color name="colorAccentDarkBlue">#007a87</color>
+    <color name="colorAccentGreen">#92d400</color>
+    <color name="colorAccentPurple">#3B0083</color>
+    <color name="colorAccentYellow">#f0ab00</color>
+
+    <!-- IT Infrastructure colors -->
+    <color name="colorITBlue">#0088ce</color>
+    <color name="colorITLightBlue">#00b9e4</color>
 </resources>
