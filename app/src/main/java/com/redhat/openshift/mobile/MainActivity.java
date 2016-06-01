@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         Log.v("os-mobile", "onCreate()");
 
         new ComService(
-                "/oapi/v1/namespaces/mobile/buildconfigs",
+                "/oapi/v1/namespaces/mobile-test/buildconfigs",
                 MainActivity.this, // this context
                 "buildConfigsDone", // callback
                 false // show progress bar
@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Get the current Pods and update the app HashMap
         new ComService(
-                "/api/v1/namespaces/mobile/pods",
+                "api/v1/namespaces/mobile-test/pods",
                 MainActivity.this, // this context
                 "podsDone", // callback
                 false // show progress bar

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="time_format">yyyy-M-d H:m:s</string>
+    <string name="server_addr">https://api.osevg.openshift.com/</string>
+
+</resources>

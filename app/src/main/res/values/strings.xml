@@ -4,5 +4,10 @@
     <string name="fetching_data">Fetching data</string>
 
     <string name="your_apps">Apps</string>
-    <string name="username">User Details </string>
+    <string name="user_details">User Details</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="form_email">E-mail</string>
+    <string name="form_pw">Password</string>
 </resources>

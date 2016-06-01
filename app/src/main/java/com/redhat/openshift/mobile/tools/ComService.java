@@ -14,9 +14,7 @@ import java.lang.reflect.Method;
  */
 public class ComService extends AsyncTask<String, String, String> {
 
-    //public static String serverURL = "http://ticket.algumavez.com/";
-    public static String serverURL = "https://api.hackathon.openshift.com/";
-    //public static String serverURL = "http://192.168.102.240/tdin-webservice/";
+    public static String serverURL = "https://api.osevg.openshift.com/";
     public static String extensionURL = ".json";
     ProgressDialog dialog;
     String methodName;
@@ -42,7 +40,7 @@ public class ComService extends AsyncTask<String, String, String> {
         String full_url = serverURL + url;
         this.methodName = methodName;
         this.object = object;
-        this.execute(full_url, "A1jnvxl3BG6q9C1K9Y1yjommQi-X2zgSvb0H-ftFvQ8");
+        this.execute(full_url, "secretkey");
         this.showProgress = showProgress;
 
 
@@ -67,7 +65,7 @@ public class ComService extends AsyncTask<String, String, String> {
     @Override
     protected void onPostExecute (String response){
 //		System.out.println(result);
-//		Log.e("mylog", "result " + result);
+		// Log.e("os-mobile", "result " + response);
         // JSONObject json = JSONHelper.string2JSON(response);
         // String status = JSONHelper.getValue(json, "status");
 
